@@ -1,0 +1,76 @@
+.items-container {
+    width: 200px;
+    border-style: solid;
+}
+
+#each-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 450px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(250, 247, 247);
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgb(19, 18, 18);
+    position: relative;
+    background: linear-gradient(to bottom, rgb(146, 199, 216), rgb(236, 232, 232));
+
+
+
+}
+.taskitem{
+    font-size:large;
+    font-weight: 600
+    ;
+}
+
+#each-item span {
+    display: block;
+    /* flex-flow: wrap; */
+    /* font-size: large; */
+
+
+
+    width: 250px;
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 10px;
+
+}
+
+#each-item button {
+    width: 50px;
+}
+
+#done {
+    background-color: green;
+}
+
+#notdone {
+    background-color: yellowgreen;
+}
+
+#itembuttons {
+    margin-top: 1px
+}
+
+#itembuttons button {
+    margin: 10px;
+    padding: 5px 5px;
+    text-align: center;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.del {
+    background-color: rgb(231, 15, 15);
+    color: aliceblue;
+
+}
+
+#timestamp {
+    color: gray;
+    position: relative;
+    right: -260px
+}
